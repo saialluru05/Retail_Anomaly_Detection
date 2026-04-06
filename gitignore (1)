@@ -1,0 +1,30 @@
+# Real data files — never commit production data
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/sample/
+
+# Output reports
+outputs/*.csv
+outputs/*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
